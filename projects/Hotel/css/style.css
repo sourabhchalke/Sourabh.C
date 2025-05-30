@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --font1: 'Bitter', serif;
+    --font2: 'Open Sans', sans-serif;
+}
+.navbar{
+    font-family: var(--font1);
+}
+.carousel-caption {
+    top: 20%;
+}
+
+.carousel-inner {
+    height: 80vh;
+    font-family: var(--font1);
+}
+.text{
+    font-family: var(--font2);
+}
+.head{
+    font-family: var(--font1);
+   
+}
+a {
+    text-decoration: none;
+}
+
+.img-1{
+    display: none;
+    height: 295px;
+}
+.cd:hover .img-1{
+    display: block !important;
+}
+.cd:hover .card-body{
+    color: white;
+}
+.check {
+    z-index: 1;
+    margin: -90px 0px 0px 0px;
+    /* opacity: 0.6; */
+}
+
+.check-btn {
+    background-color: #BCAA93;
+}
+
+.Exquisite {
+    margin: -100px 0px 0px 0px;
+}
+
+.date1 {
+    width: 80px;
+    margin: 0px 0px 0px -20px;
+    opacity: 0.6;
+}
+
+.date2,
+.date3,
+.date4 {
+    width: 80px;
+    opacity: 0.6;
+}
+
+.footer-envelope {
+    margin: 0px 0px 0px -30px;
+}
+
+.footer-input {
+    width: 360px;
+    margin: 0px 0px 20px 0px;
+}
+
+.footer-bg {
+    background-color: #111111;
+}
+
+.footer-row2 {
+    background-color: #000000;
+}
+
+.carousel-item {
+    background: url(../images/background/michal-prucha-233892-unsplash-2.jpg) center fixed;
+    height: 500px;
+}
